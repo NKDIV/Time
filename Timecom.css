@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+}
+.hero{
+    height: 50px;
+    margin: 0;
+    width: 100%;
+    background-color: #ff0000;
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-between;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+}
+.subbtn{
+    background-color: #ff0000;
+    border: 2px solid transparent;
+    text-decoration: underline;
+    color: white;
+    transition: .5s;
+}
+.subbtn:hover{
+    color: #f9004d;
+    background-color: white;
+}
+.main{
+    margin: 0 250px 0 150px;
+    width: 60%;
+    border-right:inset;
+    
+}
+h2{
+   font-size: 30px;
+   font-family: sans-serif;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+.newslatter p{
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+.button1{
+    border-radius: 2px;
+    border: none;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.button2{
+    border-radius: 15px;
+    background-color: skyblue;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-right: 100px;
+    cursor: pointer;
+}
+.button3{
+    border-radius: 4px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-right: 35%;
+    cursor: pointer;
+}
+.button4{
+    border-radius: 0px;
+    background-color: gainsboro;
+    color:black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.content p.a{
+    width: 330px;
+    border: none;  
+    width: 330px;
+}
+.content p.b{
+    width: 400px;
+    margin-top: 4px;
+    margin-bottom: 0%;
+}
+.content p.c{
+    margin-top: 0;
+    font-style: italic;
+    text-align: justify;
+
+}
+.images{
+    width: 0;
+    height: 65%;
+    position: absolute;
+    margin-bottom: 20px;
+    margin-right: 46%;
+    bottom: 0;
+    right: 150px;
+}
+.images p.a{
+    border: none;
+    width: 350px;
+    text-align: right;
+    font-size: 10px;
+    margin-top: 0;
+    font-family: Calibri;
+}
+.images p.b{
+    border: none;
+    width: 350px;
+    text-align: justify;
+    margin-top: 0;
+    font-family: Calibri;
+}
+table{
+    border: 3px solid #ddd;
+    width: 200px;
+}
+.tr td{
+    padding: 20px;
+    color: grey;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+td:hover{
+    color: navy;
+    cursor: pointer;
+}
+.images p.c{
+    text-decoration: none;
+    font-family: Tahoma;
+    margin-left: 10px;
+    margin-top: 0;
+    display: flex;
+    font-size: 15px;
+}
+
+span{
+   color: blue;
+   margin-top: 0;
+   padding: 2px;
+   font-weight: bold;
+   font-family: tahoma; 
+}
+a{
+    color: navy;
+}
